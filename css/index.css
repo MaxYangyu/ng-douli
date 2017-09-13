@@ -447,7 +447,7 @@ header .row {
   border-bottom: 0.02rem solid #9d51d6;
 }
 header .box {
-  margin-left: 0.34rem;
+  margin-left: 0.25rem;
   position: relative;
 }
 header .box .mix {
@@ -509,6 +509,10 @@ header .box .jf .jf-nav i {
 }
 header .box .jf .jf-nav .jf-info {
   color: #fff;
+  display: inline-block;
+  width: 1rem;
+  text-align: center;
+  text-overflow: ellipsis;
 }
 header .box-mix {
   margin-top: 0.25rem;
