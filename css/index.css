@@ -476,13 +476,17 @@ header .box .box-img {
   border-radius: 50%;
 }
 header .box .uname .name {
+  /*  .l-1{
+          padding-left: 0.2rem;
+        }*/
   margin-top: 0.1rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 header .box .uname .name .r-1 {
-  padding-left: 0.25rem;
+  width: 0.989rem!important;
+  padding-left: 0.225rem;
 }
 header .box .uname .name span:nth-child(1) {
   display: inline-block;
